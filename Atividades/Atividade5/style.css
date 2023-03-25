@@ -1,0 +1,84 @@
+body {
+    font-family: "Segoe", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: vhw;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.card{
+    flex-basis: calc(100% / 3 - 20px);
+    background-color: rgb(255, 255, 255);
+    color: rgb(54, 54, 54);
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 2px rgb(197, 197, 197);
+    height: 50%;
+}
+
+.card img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card h2{
+    color: #c2310d;
+    font-size: 16pt;
+    margin-top: 0;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.card a{
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+    font-size: 14pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#tecnologia{
+    color: #0d7ac2;
+}
+
+#esporte{
+    color: #0dc268;
+}
+
+#cultura{
+    color: #c25e0d; 
+}
+
+button{
+    margin-top: 15px;
+    padding: 8px 24px;
+    background-color: rgb(76, 168, 114);
+    border: none;
+    border-radius: 9px;
+    box-shadow: 1px 1px 23px 2px rgb(82, 82, 82);
+}
+
+ul{
+    margin: 0;
+    font-size: 11pt;
+    list-style: none;
+    padding: 5px 0px;
+    align-content: center;
+}
+
+li{
+    padding: 10px;
+}
