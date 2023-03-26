@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">>
+    <title>Atividade 4: Exemplo de página com FORM</title>
+    <meta name="author" content="Mr Anderson">
+    <meta name="description" content="Meta Tags - O que são e como utilizar">
+    <meta name="keywords" content="sites, web, meta tag, código, html">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <form id="formulario" action="">
+            <section>
+                <fieldset>
+                    <legend>Informações pessoais do aluno</legend>
+                    <label>Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required size="30"
+                        maxlength="50" autofocus>
+                    <br>
+                    <br>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    <br>
+                    <br>
+
+                    <label>Sexo:</label>
+                    <input type="radio" id="masculino" name="sexo" value="M" required>
+                    <label>Masculino</label>
+                    <input type="radio" id="feminino" name="sexo" value="F">
+                    <label>Feminino</label>
+                    <br>
+                    <br>
+
+                    <label for="Passatempos"></label>
+                    <input type="checkbox" id="passatempo1" name="passatempos" value="ler">
+                    <label>Ler</label>
+
+                    <input type="checkbox" id="passatempo2" name="passatempos" value="esporte">
+                    <label>Praticar Esporte</label>
+
+                    <input type="checkbox" id="passatempo3" name="passatempos" value="jogar">
+                    <label>Jogar</label>
+                    <br>
+                    <br>
+
+                    <input type="submit" value="Enviar">
+
+                    <button type="reset">Limpar</button>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Deixe aqui alguma informação que julgue necessário</legend>
+
+                    <label>Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="50" rows="10"></textarea>
+                    <br>
+                    <br>
+
+                    <label>País</label>
+                    <select name="pais" id="pais">
+                        <option value="">Selecione</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="espanha">Espanha</option>
+                        <option value="eua">EUA</option>
+                        <option value="franca">França</option>
+                    </select>
+                    <br>
+                    <br>
+                    <button type="button">Cancelar</button>
+                </fieldset>
+
+            </section>
+        </form>
+    </main>
+    <footer class="rodape">
+        <p>
+            Página criada na aula de PWEB - Direitos reservados - 2023
+        </p>
+    </footer>
+
+</body>
+
+</html>
