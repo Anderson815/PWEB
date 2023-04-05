@@ -1,0 +1,99 @@
+:root{
+    --corVerde: green;
+    --corAmarelo: yellow;
+    --corRosa: rgb(255, 0, 255);
+    --corVermelho: red;
+    --corAzul: blue;
+    --corAmareloEscuro: rgb(201, 201, 25);
+    --corPadrao: purple;
+    --corBackground: grey;
+    --corPreto: black;
+}
+
+body{
+    background-color: rgb(83, 83, 83);
+}
+
+.div-simples{
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+}
+
+@media (min-width: 0px) and (max-width: 420px){
+    .div-simples{
+        background: var(--corVerde);
+    }
+
+    .div-simples::after{
+        content: "Cor verde";
+        color: white;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 768px){
+    .div-simples{
+        background: var(--corAmarelo);
+    }
+    .div-simples::after{
+        content: "Cor amarelo";
+        color: black;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .div-simples{
+        background: var(--corRosa);
+    }
+    .div-simples::after{
+        content: "Cor rosa";
+        color: black;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1080px){
+    .div-simples{
+        background: var(--corVermelho);
+    }
+
+    .div-simples::after{
+        content: "Cor vermelho";
+        color: white;
+    }
+}
+
+@media (min-width: 1081px) and (max-width: 1366px){
+    .div-simples{
+        background: var(--corAzul);
+    }
+
+    .div-simples::after{
+        content: "Cor azul";
+        color: white;
+    }
+}
+
+@media (min-width: 1367px) and (max-width:1920px){
+    .div-simples{
+        background: var(--corAmareloEscuro);
+    }
+
+    .div-simples::after{
+        content: "Cor amarelo escuro";
+        color: white;
+    }
+}
+
+@media (min-width: 1921px){
+    .div-simples{
+        background: var(--corPreto);
+    }
+
+    .div-simples::after{
+        content: "Cor preto";
+        color: white;
+    }
+}
