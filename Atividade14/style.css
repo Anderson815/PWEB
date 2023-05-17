@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(223, 223, 223);
+    color: rgb(150, 150, 150);
+}
+
+h1{
+
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 24pt;
+    letter-spacing: 3px;
+}
+
+h2{
+    padding: 10pt;
+    text-align: center;
+    font-size: 20pt;
+    letter-spacing: 3px;
+}
+
+h3{
+    padding: 10pt;
+    text-align: center;
+    font-size: 14pt;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+.container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+form{
+    box-shadow: 1px 1px 5px rgb(71, 71, 71);
+    width: 44%;
+}
+
+p{
+    margin: .5rem 2rem;
+    font-size: 16pt;
+}
+
+#idade{
+    margin: 0rem 2rem 0rem 5rem;
+}
+
+.input-basic{
+    margin: .5rem 2rem 2rem 2rem;
+    padding: 1.2rem 1.8rem;
+    width: 18rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgb(207, 207, 207);
+    font-size: 12pt;
+}
+
+.input-text-area{
+    width:30rem;
+}
+
+.botao{
+    background: rgb(83, 83, 83);
+    color: rgb(187, 187, 187);
+    width: 14rem;
+    transition: background 1s, color 1s;
+}
+
+.botao:hover{
+    background: rgb(14, 14, 14);
+    color: rgb(219, 219, 219);
+    cursor: pointer;
+}
+
+.desc-input{
+    font-size: 14pt;
+    margin-right: 5rem;
+}
+
+div{
+    padding: 2rem;
+}
+
+label{
+    font-size: 13pt;
+    margin-right: 1.5rem;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade 13</title>
+</head>
+<body>
+    <h1>Atividade 13 - DOM (1)</h1>
+
+    <p id="titulo">Alteração de tamanho da caixa</p>
+
+    <input type="text" id="texto" class="input-basic" placeholder="informe um texto" size="20" maxlength="40">
+
+    <button class="input-basic" id="botao" onclick="select(this)">Calcular Area</button>
+
+    <div class="acoes">
+
+        <input type="checkbox" name="check" onclick="tudoMaiusculo()">
+        <span class="desc-input">LETRAS MAIÚSCULAS</span>
+
+        <input type="checkbox" name="check" onclick="tudoMinusculo()">
+        <span class="desc-input">letras minúsculas</span>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

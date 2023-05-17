@@ -14,7 +14,45 @@ class Retangulo{
     }
 }
 
+//! COMEÇO - FORA DO PROJETO
+class Retangulo2{
+    constructor(){
+        this._base;
+        this._altura;
+    }
+
+    get base(){
+        return this._base;
+    }
+
+    get altura(){
+        return this._altura;
+    }
+
+    set base(value){
+        this._base = value;
+    }
+
+    set altura(value){
+        this._altura = value
+    }
+
+    calcArea(){
+        return this.altura * this.base
+    }
+}
+//! FIM - FORA DO PROJETO
+
 function criarObjeto(){
+
+    //! COMEÇO - FORA DO PROJETO
+    
+    retangulo = new Retangulo2();
+    retangulo.altura = 10;
+    retangulo.base = 20;
+    console.log(`A área é ${retangulo.calcArea()}`);
+    
+    //! FIM - FORA DO PROJETO
 
     let base   = document.getElementById("base").value;
     let altura  = document.getElementById("altura").value;
@@ -23,6 +61,23 @@ function criarObjeto(){
     
     alert(`A area: ${objAluno2.calcArea()}`);
     
+    //! COMEÇO - FORA DO PROJETO
+
+    let Quadrado = class {
+        constructor(lado){
+            this.lado = lado;
+        }
+
+        calculaArea(){
+            return this.lado * this.lado;
+        }
+    } 
+
+    let objQuadrado = new Quadrado(100);
+    console.log(`Área do quadrado: ${objQuadrado.calculaArea()}`);
+
+    //! FIM - FORA DO PROJETO
+
 }
 
 // Classes feitas por funções
